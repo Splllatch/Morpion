@@ -1,0 +1,36 @@
+    
+#morpion
+{
+    padding-top: 50px;
+    
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 300px;
+    margin: auto;
+}    
+
+.case
+{
+    border: solid black ;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color : green;
+}
+
+#statut
+{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#recommencer
+{
+width: 10%;
+margin-left: 45%;
+}
